@@ -92,7 +92,7 @@ void loop() {
     client.println("POST /v2/streams HTTP/1.1");
     client.println("Host: apiv2.favoriot.com");
 
-    client.println(F("apikey:rw-apikey/acesstoken"));  // change it!
+    client.println(F("apikey:rw-apikey/accesstoken"));  // change it!
     
     client.println("Content-Type: application/json");
     client.println("cache-control: no-cache");
